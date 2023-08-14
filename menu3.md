@@ -2,7 +2,7 @@
 title = "Menu 3"
 +++
 
-# Working with tags
+<!-- # Working with tags
 
 **Example**:
 
@@ -10,8 +10,8 @@ title = "Menu 3"
 * page with tag [`image`](/tag/image/)
 * page with tag [`code`](/tag/code/)
 
-\toc
-
+\toc -->
+<!-- 
 ## Indicating tags
 
 To mark a page with tags, add:
@@ -20,9 +20,9 @@ To mark a page with tags, add:
 +++
 tags = ["tag1", "tag2"]
 +++
-```
+``` -->
 
-then that page, along with all others that have the tag `tag1` will be listed at `/tag/tag1/`.
+<!-- then that page, along with all others that have the tag `tag1` will be listed at `/tag/tag1/`.
 
 ## Customising tag pages
 
@@ -34,15 +34,15 @@ There are three "exceptions":
 1. you can use the `fd_tag` variable which contains the  name of the tag so `{{fill fd_tag}}` will input the tag string as is,
 1. you can use `{{fill varname path/to/page}}` to exploit a page variable defined in a specific page.
 
-## Customising tag lists
+## Customising tag lists -->
 
-By default the tag list is very simple: it just collects all pages that match the tags and it shows them in a simple list by anti-chronological order (more recent at the top).
+<!-- By default the tag list is very simple: it just collects all pages that match the tags and it shows them in a simple list by anti-chronological order (more recent at the top).
 
 You can customise this by defining your own `hfun_custom_taglist` function in the `utils.jl` file. The commented blueprint for the simple default setting is below and should give you an idea of how to  write your own generator.
 
-Assuming you've defined such a function, don't forget to use `{{custom_taglist}}` in the `_layout/tag.html` instead of the default `{{taglist}}`.
+Assuming you've defined such a function, don't forget to use `{{custom_taglist}}` in the `_layout/tag.html` instead of the default `{{taglist}}`. -->
 
-```julia
+<!-- ```julia
 function hfun_custom_taglist()::String
     # -----------------------------------------
     # Part1: Retrieve all pages associated with
@@ -91,13 +91,13 @@ function hfun_custom_taglist()::String
     # return the HTML string
     return String(take!(c))
 end
-```
+``` -->
 
-For instance the default uses:
+<!-- For instance the default uses: -->
 
-```html
+<!-- ```html -->
 <!-- 1, 3: simple list-->
-<ul>...</ul>
+<!-- <ul>...</ul> -->
 <!-- 2: simple list item plugging in path + title -->
-<li><a href="/$rpath/">$title</a></li>
-```
+<!-- <li><a href="/$rpath/">$title</a></li>
+``` -->

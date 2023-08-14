@@ -17,9 +17,9 @@ ignore = ["node_modules/"]
 
 # RSS (the website_{title, descr, url} must be defined to get RSS)
 generate_rss = true
-website_title = "Franklin Template"
-website_descr = "Example website using Franklin"
-website_url   = "https://tlienart.github.io/FranklinTemplates.jl/"
+website_title = "Métodos Numéricos Computacionais"
+website_descr = "Site da disciplina de Métodos Numéricos Computacionais EEU019"
+website_url   = "https://jvsigaud.github.io/MetodosNumericosComputacionais/"
 +++
 
 <!--

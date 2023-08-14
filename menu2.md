@@ -8,7 +8,7 @@ rss_pubdate = Date(2019, 5, 1)
 tags = ["syntax", "code", "image"]
 +++
 
-# More goodies
+<!-- # More goodies
 
 \toc
 
@@ -126,4 +126,4 @@ end
 
 You can call the above with `\baz{some string}`: \baz{some string}.
 
-**Note**: the output **will be** reprocessed by Franklin, if you want to avoid this, then escape the output by using `return "~~~" * s * "~~~"` and it will be plugged  in as is in the HTML.
+**Note**: the output **will be** reprocessed by Franklin, if you want to avoid this, then escape the output by using `return "~~~" * s * "~~~"` and it will be plugged  in as is in the HTML. -->
