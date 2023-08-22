@@ -1,9 +1,23 @@
 @def title = "Início"
 @def tags = ["syntax", "code"]
 
-# Apresentação da disciplina
+# Métodos Numéricos Computacionais (EEU019)
+
+*Professora: Andressa dos Santos Nicolau*
+\\
+*Monitor: João Victor Sigaud*
 
 \tableofcontents <!-- you can use \toc as well -->
+**Sejam bem vindos ao site da disciplina EEU019: Métodos Numéricos Computacionais. Este portal servirá como um complemento das aulas presenciais.**
+
+@@colbox-yellow
+Qualquer um pode ajudar a melhorar a página.
+\\
+Se tiver alguma idéia interessante não deixe de compartilhar.
+\\
+Reporte qualquer tipo de erro.
+@@
+
 
 <!-- This section is meant as a refresher if you're new to Franklin.
 Have a look at both how the website renders and the corresponding markdown (`index.md`).
@@ -13,7 +27,37 @@ Ps: if you want to modify the header or footer or the general look of the websit
 * `src/_css/` and
 * `src/_html_parts/`. -->
 
-## Cronograma
+## Ementa
+
+### Introdução aos erros numéricos
+* Conversão de bases
+* Tipos de Erros: Erros de Truncamento, Erros de arredondamentos
+* Propagação de Erros
+
+### Interpolação
+* Interpolação Linear, Quadrática, Lagrange e Spline Cubico
+
+### Diferenciação Numérica – diferenças Finitas
+
+* Construção de formulas de diferença usando séries de Taylor
+* Técnicas gerais para construção de esquemas de Diferenças finitas
+* Grades não uniformes
+
+### Integração Numérica
+
+* Regra de Simpson e Trapezoidal
+* Análise de Erros
+* Regra trapezoidal com Correlação-End
+* Integração de Romberg e Extrapolação Richardson
+* Quadrante adaptativo
+* Quadrante de Gauss
+
+
+
+
+<!-- ## Cronograma -->
+
+
 
 <!-- The [standard markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) can be used such as titles using `#`, lists:
 
@@ -64,7 +108,32 @@ Footnotes are nice too:
 [^blah]: and this is a longer footnote with some blah from veggie ipsum: turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko. -->
 
 ## Pré-requisitos
+Para cursar a disciplina será necessário pelo menos uma linguagem de programação. A linguagem indicada é o Python, uma vez que será revisitada e serão introduzidas novas bibliotecas.
+### Instalação Python e Google Colaboratory (colab)
+Para fazer o download do Python segue o [**link**](https://www.python.org/downloads/).
 
+@@colbox-red
+
+**Atenção!** Quando for instalar o Python não se esqueça marcar a seguinte caixinha.
+@@
+
+~~~
+<div class="row">
+  <div class="container">
+    <img class="left" src="/assets/python_path.png">
+    <p>
+    Marque a opção para adicionar o Python para o PATH.
+    </p>
+    <p>
+    </p>
+    <div style="clear: both"></div>      
+  </div>
+</div>
+~~~
+\newcommand{\bolditalic}[1]{_**!#1**_}
+### Instalação bibliotecas
+
+Para instalar bibliotecas, procure por **cmd** ou **Prompt de comand** na aba de navegação do Windows. Em seguida digite: pip install \bolditalic{Biblioteca}
 <!-- ### Divs
 
 It is sometimes useful to have a short way to make a part of the page belong to a div so that it can be styled separately.
@@ -82,8 +151,8 @@ Since it's just a `<div>` block, you can put this construction wherever you like
 Essentially three things are imitated from LaTeX
 
 1. you can introduce definitions using `\newcommand`
-1. you can use hyper-references with `\eqref`, `\cite`, ...
-1. you can show nice maths (via KaTeX)
+2. you can use hyper-references with `\eqref`, `\cite`, ...
+3. you can show nice maths (via KaTeX)
 
 The definitions can be introduced in the page or in the `config.md` (in which case they're available everywhere as opposed to just in that page).
 For instance, the commands `\scal` and `\R` are defined in the config file (see `src/config.md`) and can directly be used whereas the command `\E` is defined below (and therefore only available on this page):
@@ -124,7 +193,7 @@ It's probably easier to see this in action:
 * with: \pathwith{script.jl}, there's a whitespace you don't want 🚫
 * without: \pathwithout{script.jl} here there isn't ✅
 
-### Raw HTML
+### Raw HTMLbold
 
 You can include raw HTML by just surrounding a block with `~~~`.
 Not much more to add.
@@ -133,7 +202,7 @@ This may be useful for local custom layouts like having a photo next to a text i
 <!-- ~~~
 <div class="row">
   <div class="container">
-    <img class="left" src="/assets/rndimg.jpg">
+    <img class="left" src="/_assets/python/python_path.png">
     <p>
     Marine iguanas are truly splendid creatures. They're found on the Gálapagos islands, have skin that basically acts as a solar panel, can swim and may have the ability to adapt their body size depending on whether there's food or not.
     </p>
