@@ -388,6 +388,6 @@ code {
 }
 
 .image-container img {
-  max-width: 150%;
+  max-width: 80%;
   height: auto;
 }
