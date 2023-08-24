@@ -380,3 +380,14 @@ code {
 .admonition-body a {
   background-color: var(--color-green-light);
 }
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image-container img {
+  max-width: 150%;
+  height: auto;
+}

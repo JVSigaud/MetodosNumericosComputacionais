@@ -109,7 +109,7 @@ Footnotes are nice too:
 
 ## Pré-requisitos
 Para cursar a disciplina será necessário pelo menos uma linguagem de programação. A linguagem indicada é o Python, uma vez que será revisitada e serão introduzidas novas bibliotecas.
-### Instalação Python e Google Colaboratory (colab)
+### Instalação Python.
 Para fazer o download do Python segue o [**link**](https://www.python.org/downloads/).
 
 @@colbox-red
@@ -122,18 +122,24 @@ Para fazer o download do Python segue o [**link**](https://www.python.org/downlo
   <div class="container">
     <img class="left" src="/assets/python_path.png">
     <p>
-    Marque a opção para adicionar o Python para o PATH.
-    </p>
-    <p>
-    </p>
+    Marque a opção para adicionar o Python  no PATH.
     <div style="clear: both"></div>      
   </div>
 </div>
 ~~~
-\newcommand{\bolditalic}[1]{_**!#1**_}
 ### Instalação bibliotecas
 
-Para instalar bibliotecas, procure por **cmd** ou **Prompt de comand** na aba de navegação do Windows. Em seguida digite: pip install \bolditalic{Biblioteca}
+Para instalar bibliotecas, procure por **cmd** ou **Prompt de comando** na aba de navegação do Windows. Em seguida digite: pip install \bolditalic{nome da biblioteca}.
+\\
+Dentre as bibliotecas que serão utilizadas temos:
+\\
+* [Numpy](https://numpy.org/install/)
+* [Matplotlib](https://matplotlib.org/stable/users/getting_started/index.html#installation-quick-start)
+* [Sympy](https://docs.sympy.org/latest/install.html#installation)
+* [Scipy](https://scipy.org/install/)
+* [Jupyter Notebook](https://jupyter.org/install)
+
+
 <!-- ### Divs
 
 It is sometimes useful to have a short way to make a part of the page belong to a div so that it can be styled separately.
@@ -235,8 +241,36 @@ Marine iguanas are **truly splendid** creatures. They're not found in equations 
 * [menu 1](/menu1/)
 * [menu 2](/menu2/)
 * [menu 3](/menu3/) -->
+  
+## Listas de exercicios
+Neste [link](https://drive.google.com/drive/folders/1UOh8y9Y3vtNBY4IW-5IFBf8w35NTdtee?usp=sharing) serão postadas as listas, que deverão ser entregues pelo classroom da turma.
+\\
+* Lista 1: Conversão de base. Entrega dia 29/08/2023.
+
 
 ## Bibliografia
 
-* \biblabel{noether15}{Noether (1915)} **Noether**,  Körper und Systeme rationaler Funktionen, 1915.
-* \biblabel{bezanson17}{Bezanson et al. (2017)} **Bezanson**, **Edelman**, **Karpinski** and **Shah**, [Julia: a fresh approach to numerical computing](https://julialang.org/research/julia-fresh-approach-BEKS.pdf), SIAM review 2017.
+
+~~~
+<div class="image-container">
+  <div>
+    <img src="assets/livro1.png" alt="Imagem 1">
+    <p></p>
+  </div>
+  <div>
+    <img src="assets/livro2.png" alt="Imagem 2">
+    <p></p>
+  </div>
+  <div>
+    <img src="assets/livro3.png" alt="Imagem 3">
+    <p></p>
+  </div>
+  <div>
+    <img src="assets/livro4.png" alt="Imagem 3">
+    <p></p>
+  </div>
+</div>
+~~~
+
+<!-- * \biblabel{noether15}{Noether (1915)} **Noether**,  Körper und Systeme rationaler Funktionen, 1915.
+* \biblabel{bezanson17}{Bezanson et al. (2017)} **Bezanson**, **Edelman**, **Karpinski** and **Shah**, [Julia: a fresh approach to numerical computing](https://julialang.org/research/julia-fresh-approach-BEKS.pdf), SIAM review 2017. -->
