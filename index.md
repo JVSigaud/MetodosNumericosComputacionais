@@ -139,6 +139,8 @@ Dentre as bibliotecas que serão utilizadas temos:
 * [Scipy](https://scipy.org/install/)
 * [Jupyter Notebook](https://jupyter.org/install)
 
+### Google colab
+Caso não queira instalar o Python no seu computador, uma alternativa é usar o [colab](https://colab.research.google.com/), para isso basta ter uma conta no google. E todas as bibliotecas já estão contidas nele, só é necessario que as importe. O que é feito pelo colab fica salvo no [Google drive](https://drive.google.com/drive/u/0/my-drive).
 
 <!-- ### Divs
 
