@@ -248,12 +248,13 @@ Marine iguanas are **truly splendid** creatures. They're not found in equations 
 Neste [link](https://drive.google.com/drive/folders/1UOh8y9Y3vtNBY4IW-5IFBf8w35NTdtee?usp=sharing) serão postadas as listas, que deverão ser entregues pelo classroom da turma.
 \\
 * Lista 1: Conversão de base. Entrega dia 29/08/2023.
+* Lista 2: For e numpy. Entrega dia 3/10/2023.
 
 
 ## Bibliografia
 
 
-<!-- ~~~
+~~~
 <div class="image-container">
   <div>
     <img src="assets/livro1.png" alt="Imagem 1">
@@ -272,7 +273,7 @@ Neste [link](https://drive.google.com/drive/folders/1UOh8y9Y3vtNBY4IW-5IFBf8w35N
     <p></p>
   </div>
 </div>
-~~~ -->
+~~~
 
 <!-- * \biblabel{noether15}{Noether (1915)} **Noether**,  Körper und Systeme rationaler Funktionen, 1915.
 * \biblabel{bezanson17}{Bezanson et al. (2017)} **Bezanson**, **Edelman**, **Karpinski** and **Shah**, [Julia: a fresh approach to numerical computing](https://julialang.org/research/julia-fresh-approach-BEKS.pdf), SIAM review 2017. -->
